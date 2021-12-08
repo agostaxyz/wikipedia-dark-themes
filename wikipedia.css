@@ -1,0 +1,33 @@
+:root {
+    --accent: ;
+	--bg: #1c2128;
+    --bg2: #22272e;
+    --fg: #adbac7;
+    --links: #539bf5;
+    color: var(--fg);
+}
+
+tbody, tbody *, tr {
+    border-radius: 6px;
+}
+
+.mw-body {
+    background-color: var(--bg);
+}
+
+tbody, .toc, #mw-head, #mw-panel, body {
+        background-color: var(--bg2);
+}
+
+.mw-body, h1, h2, h3, h4, h5, h6, i, .infobox {
+    color: #adbac7 !important;
+    
+}
+
+.mw-body a, .toctogglelabel, #mw-panel a {
+    color: var(--links);;
+}
+
+.infobox {
+    background-color: var(--fg) !important;
+}
